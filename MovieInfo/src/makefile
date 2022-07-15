@@ -65,7 +65,7 @@ ObjsMovieInfo =  $(ObjMovieInfo)
 ####################
 # External libraries
 ####################
-EXT_LIBS   =  -lboost_system -lboost_filesystem -lboost_thread -lpthread -lrt -lcurl
+EXT_LIBS   =  -lrt -lcurl
 
 ####################
 # Messages      

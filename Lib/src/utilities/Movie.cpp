@@ -20,6 +20,10 @@ Movie::Movie()
       , awards{""}
       , type{""}
       , poster{""}
+      , dvd{""}
+      , boxOffice{""}
+      , production{""}
+      , website{""}
 {
 }
 
@@ -41,6 +45,10 @@ void Movie::Clear()
     type.clear();
     poster.clear();
     ratings.clear();
+    dvd.clear();
+    boxOffice.clear();
+    production.clear();
+    website.clear();       
 }
 
 string Movie::Title()

@@ -1,5 +1,4 @@
 #include <iostream>
-#include <boost/algorithm/string/trim.hpp>
 #include "RestOMDB.h"
 
 using namespace std;
@@ -9,23 +8,6 @@ using namespace MMD::Utilities;
 #define ERROR_INVALID_COMMAND     1
 #define ERROR_INVALID_ARGUMENTS   2
 #define ERROR_TITLE_NOT_FOUND     3
-
-/*
-string GetValueArgument(string argument)
-{
-    string response = "";
-    if(argument.length()>2)
-    {
-       if((argument[0]=='[') && (argument[argument.length()-1]==']'))
-       {
-           response = argument.substr(1,argument.length()-2);
-           boost::algorithm::trim(response);
-       }
-    }
-    return response;
-}
-*/
-
 
 ///
 /// \brief PrintHelpAndExit
